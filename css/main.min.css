@@ -6542,8 +6542,8 @@ main.contact_page .contact_footer .footer-copy {
   background-position: center;
   height: 1.92rem;
   margin: 0.97rem 0 1.99rem;
-  border-top: solid 0.02rem #48ffbc;
-  border-bottom: solid 0.02rem #48ffbc;
+  border-top: solid 0.02rem #f9b234;
+  border-bottom: solid 0.02rem #f9b234;
   position: relative;
 }
 .ticker-inner {
@@ -6683,7 +6683,7 @@ main.contact_page .contact_footer .footer-copy {
 }
 .ticker.cookies-popup {
   position: fixed;
-  background: #ffffff;
+  background: #000000;
   z-index: 9;
   bottom: 0;
   left: 0;
