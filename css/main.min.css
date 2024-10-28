@@ -330,7 +330,7 @@ html {
 }
 :root {
   --main-font: "everett-light", sans-serif;
-  --title-font: "sfera-regular", sans-serif;
+  --title-font: "Montserrat", sans-serif;
   --special-font: "Montserrat", sans-serif;
   --predator-font: "aurek-besh", sans-serif;
   --font-size-h1: 0.6rem;
@@ -635,7 +635,7 @@ textarea.title-h1 .special,
 ul.title-h1 .special {
   font-family: var(--special-font);
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.5);
+
 }
 a.title-h2,
 article.title-h2,
@@ -1365,7 +1365,6 @@ ul.predator {
 }
 .footer-main-element:hover .footer-main-element-block-text span {
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
 }
 .footer-main-element:hover::after {
   left: 0.32rem;
@@ -4550,7 +4549,6 @@ main.contact_page .contact_footer .footer-copy {
 }
 .work-main-project-element:hover h3 {
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
 }
 .work-main-project-element::after {
   content: "";
@@ -4568,8 +4566,8 @@ main.contact_page .contact_footer .footer-copy {
     color-stop(98%, #43ffb9)
   );
   background: linear-gradient(270deg, #f9b234 0, #43ffb9 98%);
-  -webkit-box-shadow: 0 0 2px #00eccf;
-  box-shadow: 0 0 2px #00eccf;
+  -webkit-box-shadow: 0 0 2px #f9b234;
+  box-shadow: 0 0 2px #f9b234;
   opacity: 1;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -4667,7 +4665,6 @@ main.contact_page .contact_footer .footer-copy {
 }
 .work-main-project-element-text .work-main-project-element-text h3 {
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
 }
 .work-main-project-element-link {
   font-family: var(--main-font);
@@ -4904,7 +4901,6 @@ main.contact_page .contact_footer .footer-copy {
 }
 .about-main-facts-element.active p {
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
 }
 .about-main-facts-element.active .about-main-facts-element-img img {
   opacity: 1;
@@ -4945,6 +4941,7 @@ main.contact_page .contact_footer .footer-copy {
 .testimonials-main h2 {
   font-family: var(--special-font);
   font-size: 0.76rem;
+  font-weight: 700;
 }
 .testimonials-main-content {
   display: -webkit-box;
@@ -5090,9 +5087,9 @@ main.contact_page .contact_footer .footer-copy {
   font-size: 0.24rem;
   line-height: 0.32rem;
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
   max-width: 3.44rem;
   margin-bottom: 0.15rem;
+  font-weight: 500;
 }
 .testimonials-main-content-slider-element-text a {
   position: relative;
@@ -5516,7 +5513,7 @@ main.contact_page .contact_footer .footer-copy {
   }
   .work-main-project-element h3 {
     color: #f9b234;
-    text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
+
   }
   .work-main-project-element-img {
     height: 2.16rem;
@@ -6253,7 +6250,7 @@ main.contact_page .contact_footer .footer-copy {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.5);
+
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -7012,8 +7009,8 @@ main.partner_page .partner-info-card::before {
     color-stop(98%, #43ffb9)
   );
   background: linear-gradient(270deg, #f9b234 0, #43ffb9 98%);
-  -webkit-box-shadow: 0 0 2px #00eccf;
-  box-shadow: 0 0 2px #00eccf;
+  -webkit-box-shadow: 0 0 2px #f9b234;
+  box-shadow: 0 0 2px #f9b234;
   width: 2.14rem;
   height: 0.04rem;
 }
@@ -7031,7 +7028,7 @@ main.partner_page .partner-info-card-text {
 }
 main.partner_page .partner-info-card-text h3 {
   margin-bottom: 0.36rem;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
+  text-shadow: 0 0 20px rgba(236, 173, 0, 0.7);
   font-size: 0.3rem;
   line-height: 0.36rem;
   color: #f9b234;
@@ -7261,7 +7258,6 @@ main.partner_page .partner-download-title div a div span:first-child {
   line-height: 0.32rem;
   font-family: var(--special-font);
   color: #f9b234;
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.7);
 }
 main.partner_page .partner-download-title div a div span:last-child {
   font-size: 0.4rem;
@@ -7464,7 +7460,6 @@ main.domally .partner-technology-main-stack {
     font-size: 0.16rem;
     line-height: 0.24rem;
     color: #f9b234;
-    text-shadow: 0 0 0.09rem rgba(0, 236, 207, 0.7);
     margin: 0;
   }
   main.partner_page .partner-opening-title .decor-line {
@@ -8386,5 +8381,5 @@ button {
   display: inline;
 }
 .predator {
-  text-shadow: 0 0 20px rgba(0, 236, 207, 0.5);
+
 }
