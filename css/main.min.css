@@ -262,7 +262,7 @@ html {
   --main-font: "everett-light", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --special-font: "Montserrat", sans-serif;
-  --predator-font: "aurek-besh", sans-serif;
+  --predator-font: "Montserrat", sans-serif;
   --font-size-h1: 0.6rem;
   --font-size-h2: 0.36rem;
   --font-size-desc1: 0.18rem;
@@ -332,7 +332,7 @@ html {
   --main-font: "everett-light", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --special-font: "Montserrat", sans-serif;
-  --predator-font: "aurek-besh", sans-serif;
+  --predator-font: "Montserrat", sans-serif;
   --font-size-h1: 0.6rem;
   --font-size-h2: 0.36rem;
   --font-size-desc1: 0.18rem;
@@ -4407,7 +4407,7 @@ main.contact_page .contact_footer .footer-copy {
   bottom: 0;
   right: 8.1rem;
 }
-.work-main-img {
+.work-main-img4 {
   position: absolute;
   left: 0.3rem;
   top: 2.2rem;
@@ -5445,7 +5445,7 @@ main.contact_page .contact_footer .footer-copy {
     line-height: 0.76rem;
     margin-right: 0.12rem;
   }
-  .work-main-img {
+  .work-main-img4 {
     display: none;
   }
   .work-main-slider {
